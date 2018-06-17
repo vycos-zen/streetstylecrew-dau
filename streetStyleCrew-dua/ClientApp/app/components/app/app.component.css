@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    .body-content {
+        padding-top: 50px;
+    }
+}
+
+#slide-image1{
+    content: url("../../../../../media/IMG_8016.jpg");
+}
+
+#slide-image2{
+    content: url("../../../../../media/IMG_8021.jpg");
+}
+
+#slide-image3{
+    content: url("../../../../../media/IMG_8022.jpg");
+}
+
+#slide-image4{
+    
+    content: url("../../../../../media/IMG_8026.jpg");
+}
+
+#slide-image5{
+    content:url("../../../../../media/IMG_8031.jpg");
+}
+
+.site-background{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+left: 0px;
+top: 0px;
+z-index: -99;
+}
+
+.site-container{
+    z-index: 99;
+}
