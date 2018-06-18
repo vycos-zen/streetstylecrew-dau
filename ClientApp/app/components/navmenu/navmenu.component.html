@@ -1,0 +1,42 @@
+<section role="navigation">
+    <div class="main-nav">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" [routerLink]="['/home']">Street Style Crew</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navItems" aria-controls="navItems" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navItems">
+                <div class="d-flex justify-content-center" style="display: block; margin-left: 10vw">
+                    <ul class="navbar-nav mr-auto">
+                        <li [routerLinkActive]="['link-active']" class="nav-item">
+                            <a [routerLink]="['/home']" class="nav-link">
+                                <fa name="hashtag"></fa> Főoldal
+                            </a>
+                        </li>
+                        <li [routerLinkActive]="['link-active']" class="nav-item">
+                            <a [routerLink]="['/events']" class="nav-link">
+                                <fa name="calendar"></fa> Fellépések
+                            </a>
+                        </li>
+                        <li [routerLinkActive]="['link-active']" class="nav-item">
+                            <a [routerLink]="['/classes']" class="nav-link">
+                                <fa name="graduation-cap"></fa> Tánc oktatás
+                            </a>
+                        </li>
+                        <li [routerLinkActive]="['link-active']" class="nav-item">
+                            <a [routerLink]="['/gallery']" class="nav-link">
+                                <fa name="object-group"></fa> Galéria
+                            </a>
+                        </li>
+                        <li [routerLinkActive]="['link-active']" class="nav-item">
+                            <a [routerLink]="['/about']" class="nav-link">
+                                <fa name="barcode"></fa> Rólunk
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
